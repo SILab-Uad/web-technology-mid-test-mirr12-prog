@@ -4,15 +4,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e7ff; /* Background color */
+    background-color: #000000; /* Background color */
 }
 
 .container {
     text-align: center;
     padding: 30px;
-    background-color: #ffffff; /* Background color for container */
+    background-color: #7f07ff; /* Background color for container */
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgb(255, 0, 217);
     width: 90%;
     max-width: 400px;
 }
@@ -21,7 +21,19 @@ body {
 h1 {
     font-size: 2.2em;
     margin-bottom: 20px;
-    color: #4a4a4a; /* Header color */
+    color: #000000; /* Header color */
 }
 
 /* Add more styles here as needed */
+#generateBtn {
+    color: rgb(2, 2, 2);
+    background-color: rgb(255, 252, 255);
+}
+#copyBtn {
+    color: black;
+    background-color: rgb(255, 0, 102);
+}
+button {
+    padding: 17px 20px;
+    margin: 10px;
+}
